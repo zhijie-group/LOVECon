@@ -1,0 +1,49 @@
+# CUDA_VISIBLE_DEVICES=0 python test_fatezero.py --config config/attribute/bear_tiger_lion_leopard.yaml
+
+pretrained_model_path: "./ckpt/stable-diffusion-v1-5"
+pretrained_controlnet_model_path: "./ckpt/sd-controlnet-canny"
+control_type: 'canny'
+
+dataset_config:
+    video_path: "videos/flamingo.mp4"
+    prompt: "flamingos"
+    n_sample_frame: 48
+    # n_sample_frame: 22
+    sampling_rate: 1
+    stride: 80
+    offset: 
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+
+editing_config:
+    use_invertion_latents: True
+    use_inversion_attention: True
+    guidance_scale: 12
+    editing_type: "style"
+    dilation_kernel: None
+    editing_phrase: ""
+    use_interpolater: True
+
+
+    editing_prompts: "flamingos, watercolor painting"
+        # source prompt
+    clip_length: "${..dataset_config.n_sample_frame}"
+    num_inference_steps: 50
+    prompt2prompt_edit: True
+
+    
+model_config:
+    lora: 160
+    # temporal_downsample_time: 4
+    SparseCausalAttention_index: ['first','second','last'] 
+    least_sc_channel: 640
+    # least_sc_channel: 100000
+
+test_pipeline_config:
+    target: video_diffusion.pipelines.p2p_ddim_spatial_temporal_controlnet.P2pDDIMSpatioTemporalControlnetPipeline
+    num_inference_steps: "${..validation_sample_logger.num_inference_steps}"
+
+seed: 0
+
