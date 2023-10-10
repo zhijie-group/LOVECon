@@ -10,9 +10,11 @@
 https://github.com/zhijie-group/LOVECon/assets/82353245/b0b3f60b-017d-4f0e-9188-139de16ad63b
 
 | Flamingos -> Flamingos in the blue water | Background Editing
+
 https://github.com/zhijie-group/LOVECon/assets/82353245/bc2ae62b-fff5-499d-bfd5-1a796f08b628
 
 | A man sitting near the river -> A man sitting near the river, ink wash painting style | Style transfer
+
 https://github.com/zhijie-group/LOVECon/assets/82353245/1a67e9e3-1c0f-4399-93ba-d6c3e3f248cc
 
 
@@ -109,9 +111,11 @@ You can make modifications to the source code according to your needs.
 
 # 👇 Demo for **128** Frames
 | A car -> A red car |
+
 https://github.com/zhijie-group/LOVECon/assets/82353245/c08e52a3-8002-4e7e-b705-86615b29191a
 
 | A girl -> A girl, disney style |
+
 https://github.com/zhijie-group/LOVECon/assets/82353245/317f6805-a2ca-46fb-9170-99a16e5fa2ca
 
 # 👇 Todo
