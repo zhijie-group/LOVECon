@@ -6,6 +6,7 @@
 
 # 👇Demo for **48** frames
 | A woman with a white hat -> A woman with a pink hat | Attribute Editing
+
 https://github.com/zhijie-group/LOVECon/assets/82353245/b0b3f60b-017d-4f0e-9188-139de16ad63b
 
 | Flamingos -> Flamingos in the blue water | Background Editing
