@@ -1,10 +1,10 @@
-<span style="font-size: 30px;">**LOVECon: Text-driven Training-free <span style="text-decoration: underline;">Lo</span>ng <span style="text-decoration: underline;">V</span>ideo <span style="text-decoration: underline;">E</span>diting with <span style="text-decoration: underline;">Con</span>trolNet**
+# <span style="font-size: 30px;">**LOVECon: Text-driven Training-free <span style="text-decoration: underline;">Lo</span>ng <span style="text-decoration: underline;">V</span>ideo <span style="text-decoration: underline;">E</span>diting with <span style="text-decoration: underline;">Con</span>trolNet**
 
 ---
 <span style="font-size: 20px;">Zhenyi Liao, Zhijie Deng</span>
 
 
-# 👇Demo for **48** frames
+## 👇Demo for **48** frames
 | A woman with a white hat -> A woman with a pink hat | Attribute Editing
 
 https://github.com/zhijie-group/LOVECon/assets/82353245/b0b3f60b-017d-4f0e-9188-139de16ad63b
@@ -18,7 +18,7 @@ https://github.com/zhijie-group/LOVECon/assets/82353245/bc2ae62b-fff5-499d-bfd5-
 https://github.com/zhijie-group/LOVECon/assets/82353245/1a67e9e3-1c0f-4399-93ba-d6c3e3f248cc
 
 
-# 👇 Abstract
+## 👇 Abstract
 
 > TL; DR: LOVECon can perform text-driven long video editing with ControlNet in training-free and auto-regressive way with the help of cross-window attention and a video interpolation model, and precise control with mask obtained from DDIM inversion.
 
@@ -40,11 +40,11 @@ transfer, and background replacement. In particular, our method manages to edit
 videos with up to 128 frames according to user requirements.。</p>
 </details>
 
-# 👇 Overview
+## 👇 Overview
 We present our pipeline for editing the videos using Stable Diffusion and ControlNet.
 ![pipeline](https://github.com/zhijie-group/LOVECon/assets/82353245/6b1b8c20-cb45-4d65-9f98-c1ac0bcd097e)
 
-# 👇 Environment
+## 👇 Environment
 
 You can create a virtual environment with running the following commands.
 
@@ -61,8 +61,8 @@ pip install xformers-0.0.15.dev0+4c06c79.d20221201-cp38-cp38-linux_x86_64.whl
 ```
 
 
-# 👇 Video Editing
-## 😊 Model loading 
+## 👇 Video Editing
+### 😊 Model loading 
 Download the pretrained model [Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main) and [ControlNet](https://huggingface.co/lllyasviel/sd-controlnet-canny/tree/main) and arrange them like the following directorory structure.
 - ckpt
   - stable-diffusion-v1-5
@@ -83,7 +83,7 @@ Download the pretrained model [Stable Diffusion v1.5](https://huggingface.co/run
 
 You may use other diffusion models you interest or place them in your will, but do not forget to modify the beginning of the editing configuration, where it indicates the location of models.
 
-## 😊 Reproduction
+### 😊 Reproduction
 You can download the source videos of 48 frames from [videos](https://github.com/zhijie-group/LOVECon/files/12852808/videos.zip) and put them in ./videos.
 We categorize editing tasks into three types, attribute, background editing and style transfer. We give some examples in the folder **./Examples**. If interested, you could reproduce them by the following command.
 
@@ -92,7 +92,7 @@ CUDA_VISIBLE_DEVICES=0 python test_lovecon.py --config test_config/hat.yaml
 ```
 You can specify the parameters of the configuration to get different editing results for the video.
 
-## 😊 Edit Your Own Video 
+### 😊 Edit Your Own Video 
 You are welcome to edit your own video at your will. You only need to write a configuration file to specify the parameters in the editing process.
 
 >The first three lines are for indicating the base diffusion model (default as Stable Diffusion v1.5) and ControlNet.\ 
@@ -114,7 +114,7 @@ When we perform attribute editing, **editing_phrase** indicates the editing obje
 You can make modifications to the source code according to your needs.
 
 
-# 👇 Demo for **128** Frames
+## 👇 Demo for **128** Frames
 | A car -> A red car |
 
 https://github.com/zhijie-group/LOVECon/assets/82353245/c08e52a3-8002-4e7e-b705-86615b29191a
@@ -123,9 +123,9 @@ https://github.com/zhijie-group/LOVECon/assets/82353245/c08e52a3-8002-4e7e-b705-
 
 https://github.com/zhijie-group/LOVECon/assets/82353245/317f6805-a2ca-46fb-9170-99a16e5fa2ca
 
-# 👇 Todo
+## 👇 Todo
 ■ Add shape editing to our pipeline.
 
-# 👇 Acknowledgment
+## 👇 Acknowledgment
 This repository borrows heavily from [FateZero](https://github.com/ChenyangQiQi/FateZero). Thanks to the authors for sharing their codes.
 
