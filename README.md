@@ -8,7 +8,7 @@
 
 <figure>
     <video width="768" height="256" controls>
-    <source src="Examples/Attribute/A woman with a white hat-A woman with a pink hat.mp4" type="video/mp4">
+    <source src="https://github.com/zhijie-group/LOVECon/assets/82353245/205e7eba-db9a-42f1-a3b1-81a04d3f3607" type="video/mp4">
     </video>
   <figcaption>| A woman with a white hat -> A woman with a pink hat |</figcaption>
 </figure>
