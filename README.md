@@ -5,7 +5,7 @@
 
 
 # 👇Demo for **48** frames
-
+https://github.com/zhijie-group/LOVECon/assets/82353245/b0b3f60b-017d-4f0e-9188-139de16ad63b
 <figure>
     <video width="768" height="256" controls>
     <source src="https://github.com/zhijie-group/LOVECon/assets/82353245/205e7eba-db9a-42f1-a3b1-81a04d3f3607" type="video/mp4">
