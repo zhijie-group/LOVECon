@@ -1,4 +1,4 @@
-<span style="font-size: 25px;">**LOVECon: Text-driven Training-free <span style="text-decoration: underline;">Lo</span>ng <span style="text-decoration: underline;">V</span>ideo <span style="text-decoration: underline;">E</span>diting with <span style="text-decoration: underline;">Con</span>trolNet**
+<span style="font-size: 30px;">**LOVECon: Text-driven Training-free <span style="text-decoration: underline;">Lo</span>ng <span style="text-decoration: underline;">V</span>ideo <span style="text-decoration: underline;">E</span>diting with <span style="text-decoration: underline;">Con</span>trolNet**
 
 ---
 <span style="font-size: 20px;">Zhenyi Liao, Zhijie Deng</span>
@@ -40,6 +40,10 @@ transfer, and background replacement. In particular, our method manages to edit
 videos with up to 128 frames according to user requirements.。</p>
 </details>
 
+# 👇 Overview
+We present our pipeline for editing the videos using Stable Diffusion and ControlNet.
+![pipeline](https://github.com/zhijie-group/LOVECon/assets/82353245/6b1b8c20-cb45-4d65-9f98-c1ac0bcd097e)
+
 # 👇 Environment
 
 You can create a virtual environment with running the following commands.
@@ -80,6 +84,7 @@ Download the pretrained model [Stable Diffusion v1.5](https://huggingface.co/run
 You may use other diffusion models you interest or place them in your will, but do not forget to modify the beginning of the editing configuration, where it indicates the location of models.
 
 ## 😊 Reproduction
+You can download the source videos of 48 frames from [videos](https://github.com/zhijie-group/LOVECon/files/12852808/videos.zip) and put them in ./videos.
 We categorize editing tasks into three types, attribute, background editing and style transfer. We give some examples in the folder **./Examples**. If interested, you could reproduce them by the following command.
 
 ```
