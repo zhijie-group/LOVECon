@@ -81,7 +81,7 @@ Download the pretrained model [Stable Diffusion v1.5](https://huggingface.co/run
   - sd-controlnet-hed
   - sd-controlnet-depth
 
-You may use other diffusion models you interest or place them in your will, but do not forget to modify the beginning of the editing configuration, where it indicates the location of models.
+You may use other diffusion models you interest or place them at your will, but do not forget to modify the beginning of the editing configuration, where it indicates the location of models.
 
 ### 😊 Reproduction
 You can download the source videos of 48 frames from [videos](https://github.com/zhijie-group/LOVECon/files/12852808/videos.zip) and put them in ./videos.
