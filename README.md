@@ -7,15 +7,16 @@
 ## 👇Demo for **48** frames
 | A woman with a white hat -> A woman with a pink hat | Attribute Editing
 
-https://github.com/zhijie-group/LOVECon/assets/82353245/b0b3f60b-017d-4f0e-9188-139de16ad63b
+https://github.com/zhijie-group/LOVECon/assets/82353245/33b2c6b9-a800-4873-9aa0-1def9cae44cd
+
 
 | Flamingos -> Flamingos in the blue water | Background Editing
 
-https://github.com/zhijie-group/LOVECon/assets/82353245/bc2ae62b-fff5-499d-bfd5-1a796f08b628
+https://github.com/zhijie-group/LOVECon/assets/82353245/72de6c8a-58b3-431e-8722-a8e78b1aa8f4
 
 | A man sitting near the river -> A man sitting near the river, ink wash painting style | Style transfer
 
-https://github.com/zhijie-group/LOVECon/assets/82353245/1a67e9e3-1c0f-4399-93ba-d6c3e3f248cc
+https://github.com/zhijie-group/LOVECon/assets/82353245/44d6105c-66fd-4471-8451-ab7e913800ac
 
 
 ## 👇 Abstract
@@ -117,12 +118,11 @@ You can make modifications to the source code according to your needs.
 ## 👇 Demo for **128** Frames
 | A car -> A red car |
 
-https://github.com/zhijie-group/LOVECon/assets/82353245/c08e52a3-8002-4e7e-b705-86615b29191a
+https://github.com/zhijie-group/LOVECon/assets/82353245/50c261a9-623c-40c4-89fb-aa34603ebcfa
 
 | A girl -> A girl, disney style |
 
-https://github.com/zhijie-group/LOVECon/assets/82353245/317f6805-a2ca-46fb-9170-99a16e5fa2ca
-
+https://github.com/zhijie-group/LOVECon/assets/82353245/31032ece-5497-4273-b74b-477bf4d831a2
 ## 👇 Todo
 ■ Add shape editing to our pipeline.
 
