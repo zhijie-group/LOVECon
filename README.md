@@ -7,16 +7,16 @@
 ## 👇Demo for **48** frames
 | A woman with a white hat -> A woman with a pink hat | Attribute Editing
 
-https://github.com/zhijie-group/LOVECon/assets/82353245/33b2c6b9-a800-4873-9aa0-1def9cae44cd
+https://github.com/zhijie-group/LOVECon/assets/82353245/01bc1784-58bd-4337-82af-19435a5365af
 
 
 | Flamingos -> Flamingos in the blue water | Background Editing
 
-https://github.com/zhijie-group/LOVECon/assets/82353245/72de6c8a-58b3-431e-8722-a8e78b1aa8f4
+https://github.com/zhijie-group/LOVECon/assets/82353245/e2d0f201-aeb2-40a5-80ea-43cc39e98717
 
-| A man sitting near the river -> A man sitting near the river, ink wash painting style | Style transfer
+| A boat -> A boat, Van Gogh's Starry Night style | Style transfer
 
-https://github.com/zhijie-group/LOVECon/assets/82353245/44d6105c-66fd-4471-8451-ab7e913800ac
+https://github.com/zhijie-group/LOVECon/assets/82353245/c81342bf-a48a-4edd-841b-81a05fb32599
 
 
 ## 👇 Abstract
