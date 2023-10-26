@@ -18,7 +18,7 @@ https://github.com/zhijie-group/LOVECon/assets/82353245/e2d0f201-aeb2-40a5-80ea-
 
 https://github.com/zhijie-group/LOVECon/assets/82353245/c81342bf-a48a-4edd-841b-81a05fb32599
 
-
+We adapt [ControlNet-I](https://github.com/YBYBZhang/ControlVideo) and [ControlNet-II](https://github.com/thu-ml/controlvideo) for comparisons.
 ## 👇 Abstract
 
 > TL; DR: LOVECon can perform text-driven long video editing with ControlNet in training-free and auto-regressive way with the help of cross-window attention and a video interpolation model, and precise control with mask obtained from DDIM inversion.
@@ -43,7 +43,7 @@ videos with up to 128 frames according to user requirements.。</p>
 
 ## 👇 Overview
 We present our pipeline for editing the videos using Stable Diffusion and ControlNet.
-![pipeline](https://github.com/zhijie-group/LOVECon/assets/82353245/6b1b8c20-cb45-4d65-9f98-c1ac0bcd097e)
+![pipeline](https://github.com/zhijie-group/LOVECon/assets/82353245/91e0f81d-dde1-4667-844d-1a0520dee8f2)
 
 ## 👇 Environment
 
@@ -123,9 +123,21 @@ https://github.com/zhijie-group/LOVECon/assets/82353245/50c261a9-623c-40c4-89fb-
 | A girl -> A girl, disney style |
 
 https://github.com/zhijie-group/LOVECon/assets/82353245/31032ece-5497-4273-b74b-477bf4d831a2
+
+If you need to edit a long video, you just need to modify the **N_sample_frame** parameter in the config file (eg. 128). You can also make modification to the fusion hyperparameter to trade off between fidelity and the editing so that you can get the results you desire.
 ## 👇 Todo
 ■ Add shape editing to our pipeline.
 
 ## 👇 Acknowledgment
 This repository borrows heavily from [FateZero](https://github.com/ChenyangQiQi/FateZero). Thanks to the authors for sharing their codes.
 
+## 👇 Citation
+Please cite our paper if you find our work useful and use it in your work.
+'''
+@article{liao2023lovecon,
+  title={LOVECon: Text-driven Training-Free Long Video Editing with ControlNet},
+  author={Liao, Zhenyi and Deng, Zhijie},
+  journal={arXiv preprint arXiv:2310.09711},
+  year={2023}
+}
+'''
