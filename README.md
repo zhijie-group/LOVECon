@@ -133,11 +133,11 @@ This repository borrows heavily from [FateZero](https://github.com/ChenyangQiQi/
 
 ## 👇 Citation
 Please cite our paper if you find our work useful and use it in your work.
-'''
+```
 @article{liao2023lovecon,
   title={LOVECon: Text-driven Training-Free Long Video Editing with ControlNet},
   author={Liao, Zhenyi and Deng, Zhijie},
   journal={arXiv preprint arXiv:2310.09711},
   year={2023}
 }
-'''
+```
